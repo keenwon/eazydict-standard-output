@@ -1,0 +1,33 @@
+{
+  "name": "eazydict-standard-output",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keenwon/eazydict-standard-output.git"
+  },
+  "keywords": [
+    "eazydict",
+    "dictionary",
+    "translate",
+    "youdao",
+    "bing",
+    "google",
+    "terminal",
+    "console",
+    "linux"
+  ],
+  "author": {
+    "name": "keenwon",
+    "email": "semanwmj@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keenwon/eazydict-standard-output/issues"
+  },
+  "homepage": "https://github.com/keenwon/eazydict-standard-output#readme"
+}
