@@ -5,6 +5,8 @@
  */
 class EDOutput {
   constructor(code, message) {
+    this.pluginName = '';
+    this.url = '';
     this.phonetics = [];
     this.translates = [];
     this.error = new EDError(code, message);
