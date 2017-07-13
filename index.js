@@ -46,6 +46,9 @@ const CODES = {
   1: 'NETWORK_ERROR',
   NETWORK_ERROR: 1,
 
+  2: 'PARSE_ERROR',
+  PARSE_ERROR: 2,
+
   99: 'OTHER',
   OTHER: 99
 };
