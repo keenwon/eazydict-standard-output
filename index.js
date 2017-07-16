@@ -7,8 +7,11 @@ class EDOutput {
   constructor(code, message) {
     this.pluginName = '';
     this.url = '';
+
     this.phonetics = [];
     this.translates = [];
+    this.examples = [];
+
     this.error = new EDError(code, message);
   }
 }
@@ -39,6 +42,19 @@ class Translate {
   }
 }
 
+/**
+ * 例句
+ */
+class Example {
+  constructor(from, to) {
+    // 原句
+    this.from = from;
+
+    // 翻译
+    this.to = to;
+  }
+}
+
 const CODES = {
   SUCCESS: 0,
   0: 'SUCCESS',
@@ -55,7 +71,8 @@ const CODES = {
 
 class EDError {
   constructor(code = CODES.SUCCESS, message = '') {
-    this.code = code
+    this.code = code;
+    this.type = CODES[this.code] || '';
     this.message = message;
   }
 }
@@ -64,5 +81,6 @@ module.exports = EDOutput;
 module.exports.EDOutput = EDOutput;
 module.exports.Phonetic = Phonetic;
 module.exports.Translate = Translate;
+module.exports.Example = Example;
 module.exports.EDError = EDError;
 module.exports.CODES = CODES;
