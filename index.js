@@ -1,5 +1,7 @@
 'use strict';
 
+const pkg = require('./package.json');
+
 /**
  * EazyDict 词典插件标准输出对象
  */
@@ -12,6 +14,7 @@ class EDOutput {
     this.translates = [];
     this.examples = [];
 
+    this.version = pkg.version;
     this.error = new EDError(code, message);
   }
 }
