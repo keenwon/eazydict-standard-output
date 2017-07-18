@@ -8,6 +8,7 @@ const pkg = require('./package.json');
 class EDOutput {
   constructor(code, message) {
     this.pluginName = '';
+    this.words = '';
     this.url = '';
 
     this.phonetics = [];
