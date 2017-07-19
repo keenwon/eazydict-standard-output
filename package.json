@@ -1,7 +1,7 @@
 {
   "name": "eazydict-standard-output",
-  "version": "1.5.0",
-  "description": "",
+  "version": "1.5.1",
+  "description": "EazyDict 插件标准输出对象",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
