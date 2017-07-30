@@ -7,15 +7,27 @@ const pkg = require('./package.json');
  */
 class EDOutput {
   constructor(code, message) {
+    // 插件显示的名词
     this.pluginName = '';
+
+    // 插件的包名词
+    this.packageName = '';
+
+    // 查询的单词 & 短语
     this.words = '';
+
+    // 在线地址
     this.url = '';
 
+    // 音标 & 翻译 & 例句
     this.phonetics = [];
     this.translates = [];
     this.examples = [];
 
+    // Output 版本
     this.version = pkg.version;
+
+    // 错误信息
     this.error = new EDError(code, message);
   }
 }
