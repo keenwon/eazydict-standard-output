@@ -7,10 +7,10 @@ const pkg = require('./package.json');
  */
 class EDOutput {
   constructor(code, message) {
-    // 插件显示的名词
+    // 插件显示的名称
     this.pluginName = '';
 
-    // 插件的包名词
+    // 插件的包名称
     this.packageName = '';
 
     // 查询的单词 & 短语
