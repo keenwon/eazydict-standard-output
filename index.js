@@ -72,6 +72,19 @@ class Example {
   }
 }
 
+/**
+ * 翻译建议
+ */
+class Suggest {
+  constructor(word, translate) {
+    // 词语
+    this.word = word;
+
+    // 翻译
+    this.translate = translate;
+  }
+}
+
 const CODES = {
   SUCCESS: 0,
   0: 'SUCCESS',
@@ -99,5 +112,6 @@ module.exports.EDOutput = EDOutput;
 module.exports.Phonetic = Phonetic;
 module.exports.Translate = Translate;
 module.exports.Example = Example;
+module.exports.Suggest = Suggest;
 module.exports.EDError = EDError;
 module.exports.CODES = CODES;
