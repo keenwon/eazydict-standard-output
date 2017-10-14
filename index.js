@@ -19,10 +19,11 @@ class EDOutput {
     // 在线地址
     this.url = '';
 
-    // 音标 & 翻译 & 例句
+    // 音标 & 翻译 & 例句 & 搜索建议
     this.phonetics = [];
     this.translates = [];
     this.examples = [];
+    this.suggests = [];
 
     // Output 版本
     this.version = pkg.version;
