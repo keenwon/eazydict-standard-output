@@ -4,7 +4,7 @@
   "description": "EazyDict 插件标准输出对象",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,6 @@
   },
   "homepage": "https://github.com/keenwon/eazydict-standard-output#readme",
   "devDependencies": {
-    "mocha": "^4.0.1",
-    "mocha-eslint": "^4.1.0"
+    "eslint": "^4.19.1"
   }
 }
